@@ -110,11 +110,15 @@ li:hover {
 
 .footer_container {
     background-color: rgba(68, 211, 255, 0.8);
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2em;
     font-weight: bold;
     /* height: 100vh; */
+    border-top: 1px solid rgb(202, 202, 202);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
